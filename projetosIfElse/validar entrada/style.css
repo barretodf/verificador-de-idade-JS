@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(0, 34, 62);
+    color: aliceblue;
+}
+.principal{
+    margin-top: 100px;
+}
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* top: 200px; */
+    max-width: 300px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+    /* padding: 30px; */
+}
+h2{
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+}
+.nomeMusico, .nomeBanda{
+    padding: 10px ;
+    font-size: 20px;
+}
+.musicoCaixa, .bandaCaixa{
+    padding: 5px;
+}
+button {
+    background-color:steelblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 20px;
+}
+#resultado{
+    font-size: 35px;
+    color: aqua;
+    padding: 10px;
+    
+}

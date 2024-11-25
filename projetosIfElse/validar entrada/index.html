@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Validação de Entrada</title>
+</head>
+<body>
+    <section class="principal">
+        <h2>Validação de Entrada</h2>
+        <div class="container">
+        
+        <label for="nomeMusico" class="nomeMusico">Nome do Músico:</label>
+        <input 
+        type="text" 
+        id="nomeMusico" 
+        class="musicoCaixa"
+        onkeydown="if(event.key === 'Enter'){ validarEntrada(); }"
+        autocomplete="off"
+        placeholder="Digite">
+        <br>
+
+        <label for="nomeBanda" class="nomeBanda">Nome da Banda:</label>
+        <input 
+        type="text" 
+        id="nomeBanda" 
+        class="bandaCaixa"
+        onkeydown="if(event.key === 'Enter'){ validarEntrada(); }"
+        autocomplete="off"
+        placeholder="Digite">
+        
+        <button onclick="validarEntrada()">Validar</button>
+        <p id="resultado"></p>
+    </div>
+    
+
+    <script src="entrada.js"></script>
+</section>
+</body>
+</html>
