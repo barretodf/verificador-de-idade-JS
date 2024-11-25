@@ -1,0 +1,60 @@
+Ótimo! Vamos começar com alguns desafios para te ajudar a praticar o que você aprendeu. Vou criar alguns exercícios que cobrem variáveis, condições, laços e funções. Tente resolvê-los por conta própria e, se precisar de ajuda, estou aqui para te guiar!
+
+### Desafio 1: **Calculadora Simples**
+Crie um programa que pergunte dois números ao usuário e exiba a soma, subtração, multiplicação e divisão desses números.
+
+Dica: Use `prompt()` para pegar a entrada do usuário.
+
+---
+
+### Desafio 2: **Par ou Ímpar**
+Crie uma função que receba um número como parâmetro e exiba se ele é **par** ou **ímpar**.
+
+Dica: Use o operador `%` para verificar o resto da divisão.
+
+---
+
+### Desafio 3: **Contagem Regressiva**
+Crie um programa que faça uma contagem regressiva de 10 até 0 e exiba os números no console. Ao final, deve exibir a mensagem "Feliz Ano Novo!".
+
+Dica: Use um laço `for` para contar de 10 até 0.
+
+---
+
+### Desafio 4: **Verificador de Idade**
+Crie um programa que verifique se uma pessoa pode ou não entrar em uma balada. A idade mínima é 18 anos.
+
+- Se a pessoa for maior de idade, exiba: "Você pode entrar na balada."
+- Se a pessoa for menor de idade, exiba: "Você não pode entrar na balada."
+
+Dica: Use uma estrutura `if` para verificar a idade.
+
+---
+
+### Desafio 5: **Somar Números de 1 a N**
+Crie uma função que receba um número `N` e calcule a soma de todos os números de 1 até `N`. Por exemplo, se `N = 5`, a soma deve ser `1 + 2 + 3 + 4 + 5 = 15`.
+
+Dica: Você pode usar um laço `for` para somar os números de 1 até `N`.
+
+---
+
+### Desafio 6: **Tabuada**
+Crie um programa que imprima a tabuada de um número fornecido pelo usuário. O programa deve imprimir a multiplicação do número por 1 até 10.
+
+---
+
+### Desafio 7: **Maior Número**
+Crie uma função que receba três números e exiba o maior número.
+
+Dica: Use uma série de condicionais `if` para comparar os números.
+
+---
+
+### Desafio 8: **Fatorial**
+Crie uma função que calcule o fatorial de um número. O fatorial de um número `N` é o produto de todos os números de 1 até `N`. Por exemplo, o fatorial de 5 é `5! = 5 * 4 * 3 * 2 * 1 = 120`.
+
+Dica: Use um laço `for` para calcular o fatorial.
+
+---
+
+Tente fazer os desafios! Eles são uma boa maneira de reforçar o que você aprendeu até agora. Se você precisar de dicas ou soluções, é só me chamar!

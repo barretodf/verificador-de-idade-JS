@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="primeiro.css">
+    <title>If Else Projects</title>
+
+</head>
+
+<body>
+    <div class="conteudo">
+        <label for="" class="verificador">Verificador de Idade</label>
+        <input 
+        type="text"
+        autocomplete="off" 
+        placeholder="Digite" 
+        id="idade" 
+        onkeydown="if(event.key === 'Enter'){ verificarIdade(); }">
+        <!-- onkeydown - envia ao precionar o enter -->
+
+        <button onclick="verificarIdade()">Verificar</button>
+    </div>
+    <p id="resultado"></p>
+
+
+    <script src="primeiro.js"></script>
+
+</body>
+
+</html>
