@@ -6,11 +6,13 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    margin-top: 300px;
-    background-color:rgb(1, 73, 73);
+    margin-top: 200px;
+    background-color:rgb(1, 45, 45);
 }
 .verificador{
-    color: aliceblue;
+    color: rgb(2, 183, 183);
+    margin-right: 10px;
+
 }
 #idade {
     width: 50px;
@@ -34,7 +36,11 @@ button:hover{
 .conteudo{
     padding: 20px;
 }
-
+h1{
+    color: teal;
+    padding: 20px;
+    text-transform: uppercase;
+}
 p{
     padding: 30px;
     font-size: 50px;
